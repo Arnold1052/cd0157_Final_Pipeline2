@@ -6,7 +6,7 @@ data:
       - system:nodes
       rolearn: arn:aws:iam::565124524335:role/eksctl-eksctl-demo-nodegroup-ng-0-NodeInstanceRole-124GDZFNJ2SR7
       username: system:node:{{EC2PrivateDNSName}}
-      - groups:
+    - groups:
       - system:masters
       rolearn: arn:aws:iam::565124524335:role/UdacityFlaskDeployCBKubectlRole
 kind: ConfigMap
